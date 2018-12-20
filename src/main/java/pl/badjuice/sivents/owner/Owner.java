@@ -1,4 +1,10 @@
 package pl.badjuice.sivents.owner;
 
-public class Owner {
+import pl.badjuice.sivents.model.BasicEntity;
+
+public class Owner extends BasicEntity {
+
+    public Owner(Integer id) {
+        super(id);
+    }
 }
