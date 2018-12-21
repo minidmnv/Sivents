@@ -1,7 +1,8 @@
-package pl.badjuice.sivents.event;
+package pl.badjuice.sivents.event.domain.event;
 
 import org.junit.Ignore;
 import org.junit.Test;
+import pl.badjuice.sivents.event.domain.Event;
 
 import static org.junit.Assert.assertEquals;
 
@@ -26,7 +27,7 @@ public class EventConstructionTests {
         Event event = new Event.Builder(eventTitle, null).build();
 
         assertEquals(eventTitle, event.title);
-        assertEquals(null, event.owner);
+        assertEquals(null, event.user);
     }
 
     @Test
@@ -36,7 +37,7 @@ public class EventConstructionTests {
         Event eventFromCopy = new Event.Builder(event).build();
 
         assertEquals(eventTitle, eventFromCopy.title);
-        assertEquals(null, eventFromCopy.owner);
+        assertEquals(null, eventFromCopy.user);
     }
 
 }

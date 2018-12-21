@@ -1,35 +1,35 @@
-package pl.badjuice.sivents.event;
+package pl.badjuice.sivents.event.domain;
 
-import pl.badjuice.sivents.owner.Owner;
+import pl.badjuice.sivents.event.domain.user.User;
 
 public class Event {
 
     public final String title;
-    public final Owner owner;
+    public final User user;
 
-    public Event(String title, Owner owner) {
+    public Event(String title, User user) {
         this.title = title;
-        this.owner = owner;
+        this.user = user;
     }
 
     private Event(Builder builder) {
         title = builder.title;
-        owner = builder.owner;
+        user = builder.user;
     }
 
 
     public static final class Builder {
         private final String title;
-        private final Owner owner;
+        private final User user;
 
-        public Builder(String title, Owner owner) {
+        public Builder(String title, User user) {
             this.title = title;
-            this.owner = owner;
+            this.user = user;
         }
 
         public Builder(Event copy) {
             this.title = copy.title;
-            this.owner = copy.owner;
+            this.user = copy.user;
         }
 
         public Event build() {
