@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/minidmnv/Sivents.svg?branch=master)](https://travis-ci.org/minidmnv/Sivents)
+[![Build Status](https://travis-ci.org/minidmnv/Sivents.svg?branch=master)](https://travis-ci.org/minidmnv/Sivents) [![codecov](https://codecov.io/gh/minidmnv/Sivents/branch/master/graph/badge.svg)](https://codecov.io/gh/minidmnv/Sivents)
