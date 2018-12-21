@@ -5,13 +5,14 @@
 
 	<groupId>pl.badjuice</groupId>
 	<artifactId>sivents</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${sivents.version}</version>
 	<name>sivents</name>
 	<description>Sivent application for better and simplier events planning.</description>
 	<packaging>pom</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sivents.version>0.0.1-SNAPSHOT</sivents.version>
 	</properties>
 
 	<modules>

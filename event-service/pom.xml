@@ -6,7 +6,7 @@
 
     <groupId>pl.badjuice.sivents</groupId>
     <artifactId>event-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${sivents.version}</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
